@@ -1,0 +1,23 @@
+# Local .terraform directory (huge provider binaries)
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+*.tfstate.*
+
+# Terraform variables (often contain sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan outputs
+*.tfplan
+
+# Crash logs
+crash.log
+
+# Ignore macOS or Windows system files
+.DS_Store
+Thumbs.db
+
